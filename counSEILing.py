@@ -27,4 +27,4 @@ def add_approval():
     res = insert_approval(user_id, title, content)
     return jsonify(res), 201
 
-insert_approval('b67db583-0a47-4d32-a5c4-35eb9e28704c', 'test', 'test')
+insert_approval('b67db583-0a47-4d32-a5c4-35eb9e28704c', '제목', '내용')
